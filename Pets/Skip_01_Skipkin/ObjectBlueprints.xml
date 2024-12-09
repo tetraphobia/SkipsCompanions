@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+    <object Name="Skip_01_Skipkin" Inherits="BaseHumanoid">
+        <part Name="Render" DisplayName="{{M|Skip}}{{m|kin}}" Tile="Characters/01_Skipkin.png" RenderString="S" ColorString="&amp;M" Foreground="M" DetailColor="K" />
+        <part Name="Description" Short="Vantablack feathers, thoroughly groomed, hide behind a vibrant robe of dreamy colors. Three glimmering stars orbit this avian creature, chiming gently in perfect comsic harmony." />
+        <part Name="Brain" Wanders="true" />
+
+        <part Name="Body" Anatomy="Skip_01_Skipkin_Anatomy" />
+        <part Name="ConversationScript" ConversationID="Skip_01_Skipkin_Conversation" />
+        <property Name="Story" Value="Skip_01_Skipkin_Story" />
+
+        <property Name="Role" Value="Skirmisher" />
+
+        <mutation Name="Psychometry" Level="1" />
+        <mutation Name="MentalMirror" Level="1" />
+        <mutation Name="Esper" Level="1" />
+        <part Name="RandomMutations" Mental="1" MentalLevel="1" />
+
+        <stat Name="Level" Value="1" />
+        <stat Name="AV" Value="4" />
+        <stat Name="Hitpoints" Value="42" />
+        <stat Name="Agility" sValue="16" />
+        <stat Name="Strength" sValue="16" />
+        <stat Name="Toughness" sValue="18" />
+        <stat Name="Intelligence" sValue="20" />
+        <stat Name="Willpower" sValue="16" />
+        <stat Name="Ego" sValue="20" />
+        <stat Name="ColdResistance" Value="20" />
+
+        <inventoryobject Blueprint="Cloth Robe" />
+
+        <tag Name="PetResponse" Value="pets you back,caws eerily,shuts their eyes,rolls their eyes,ceases to be for a brief moment" />
+        <tag Name="Pettable" />
+        <tag Name="Pet" />
+        <tag Name="Gender" Value="neuter" />
+        <xtagGrammar Proper="true" />
+        <tag Name="ExcludeFromDynamicEncounters" />
+        <tag Name="StartingPet" />
+    </object>
+</objects>

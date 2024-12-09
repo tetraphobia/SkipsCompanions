@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<conversations>
+    <conversation ID="Skip_01_Skipkin_Conversation">
+        <node ID="Start">
+            <text>Got anything shiny?</text>
+            <text>Hmm, I think...</text>
+            <text>I thought... hmm...</text>
+            <text>Is drinking all there is to live for?</text>
+            <text>Live and drink.</text>
+            <choice GotoID="Thanks">What are you thinking about?</choice>
+            <choice GotoID="End">Live and drink, Skipkin.</choice>
+        </node>
+        <node ID="Thanks">
+            <text>I'm thinking about thanking you for your support! Best of luck reclaiming the spindle!</text>
+            <choice GotoID="Tip">I'm gonna need it...</choice>
+            <choice GotoID="End">Oh, thanks! Live and drink.</choice>
+        </node>
+        <node ID="Tip">
+            <text>Here's a tip, reduce your enemy's health to zero while keeping your health above zero. Following this simple philosophy will assure victory.</text>
+            <choice GotoID="End">... live and drink.</choice>
+        </node>
+    </conversation>
+</conversations>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<KernelmethodChooseYourFighter>
+    <group ID="Skip_Companions" Name="{{O|Skip's Companions}} {{K|by Skipkin}}">
+        <model ID="Skip_01_Skipkin" Name="{{M|Skip}}{{m|kin}}">
+            <tile Path="Characters/01_Skipkin.png" Foreground="M" DetailColor="K" />
+        </model>
+    </group>
+</KernelmethodChooseYourFighter>
